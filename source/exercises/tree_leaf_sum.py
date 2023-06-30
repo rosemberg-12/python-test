@@ -4,7 +4,6 @@ class TreeNode(object):
         self.val = val
         self.left = left
         self.right = right
-
         
     def isLeaf(self):
         return self.left==None and self.right==None
@@ -18,12 +17,8 @@ class TreeNode(object):
             return node.val
 
         return self.internalLeftLeafSum( node.left, "L")+ self.internalLeftLeafSum( node.right, "R")
-
-
     def getLeftLeafSum(self):
         return self.internalLeftLeafSum( self.left, "L")+ self.internalLeftLeafSum( self.right, "R")
-
-
         
 class Solution(object):
     def sumOfLeftLeaves(self, root):
@@ -39,7 +34,6 @@ class Solution(object):
     root= TreeNode(3, n1, n2)
 
     print(root.getLeftLeafSum())
-
 
     n5= TreeNode(6)
     n4= TreeNode(3)
