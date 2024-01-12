@@ -12,7 +12,9 @@ def _build_default_headers(params: typing.Dict[str,typing.Any]):
     return headers
 
 other_dict={
-    "test": "Test"
+    "test": "Test",
+    "Accept": "new_value",
+
 }
 
 print (_build_default_headers(other_dict))

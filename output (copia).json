@@ -1,0 +1,98 @@
+[
+    {
+        "payload": {
+            "business_addresses": [
+                {
+                    "street": "Calle 147 # 17 - 85",
+                    "city_code": "BOGOTA_D_C",
+                    "department_code": "CUNDINAMARCA",
+                    "country_code": "CO"
+                }
+            ],
+            "client_id_principal": null,
+            "economic_activities": [
+                "TECHNOLOGY_AND_SOFTWARE"
+            ],
+            "executed_by": "kyc.bot@bold.co",
+            "executed_reason": "Automatic execution from KYC Death Star in current Onboarding  for merchant [6DUAUSLPM5]",
+            "external_reference": null,
+            "fraud_profiling_information": null,
+            "identification_document": {
+                "document_type": "CEDULA",
+                "document_number": "79687896",
+                "document_expedition_date": null,
+                "verification_digit": null
+            },
+            "is_restricted_activity": false,
+            "is_self_declared_as_politically_exposed_person": false,
+            "person_type": "NATURAL_PERSON",
+            "personal_name": {
+                "first_name": "Javier Enrique",
+                "last_name": "Valero Peña",
+                "full_name": null
+            },
+            "personal_info": {
+                "birth_country_code": "CO"
+            },
+            "stages": [
+                "BOLD_LIST",
+                "FULL_AML",
+                "JURISDICTION",
+                "IDENTITY_VERIFICATION",
+                "LOCATION",
+                "ECONOMIC_ACTIVITY",
+                "PARTIAL_AML"
+            ],
+            "tusdatos_id": null,
+            "execution_origin": "MERCHANTS"
+        }
+    },
+    {
+        "payload": {
+            "business_addresses": [
+                {
+                    "street": "Carrera 4 #5-56",
+                    "city_code": "SALENTO",
+                    "department_code": "QUINDIO",
+                    "country_code": "CO"
+                }
+            ],
+            "client_id_principal": null,
+            "economic_activities": [
+                "HANDICRAFTS"
+            ],
+            "executed_by": "kyc.bot@bold.co",
+            "executed_reason": "Automatic execution from KYC Death Star in current Onboarding  for merchant [QCBMZCP8RE]",
+            "external_reference": null,
+            "fraud_profiling_information": null,
+            "identification_document": {
+                "document_type": "CEDULA_EXTRANJERIA",
+                "document_number": "4786637",
+                "document_expedition_date": null,
+                "verification_digit": null
+            },
+            "is_restricted_activity": false,
+            "is_self_declared_as_politically_exposed_person": false,
+            "person_type": "NATURAL_PERSON",
+            "personal_name": {
+                "first_name": "Oriana gisell",
+                "last_name": "Peña",
+                "full_name": null
+            },
+            "personal_info": {
+                "birth_country_code": "VE"
+            },
+            "stages": [
+                "IDENTITY_VERIFICATION",
+                "JURISDICTION",
+                "ECONOMIC_ACTIVITY",
+                "BOLD_LIST",
+                "FULL_AML",
+                "LOCATION",
+                "PARTIAL_AML"
+            ],
+            "tusdatos_id": null,
+            "execution_origin": "MERCHANTS"
+        }
+    }
+]
